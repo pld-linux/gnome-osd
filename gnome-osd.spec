@@ -1,12 +1,12 @@
 Summary:	OSD notification system for the GNOME desktop
 Summary(pl):	System powiadamiania OSD dla GNOME
 Name:		gnome-osd
-Version:	0.5.1
+Version:	0.6.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://yang.inescn.pt/~gjc/gnome-osd/%{name}-%{version}.tar.bz2
-# Source0-md5:	13ae7be2502ca22d616cd1dfd8b79c06
+# Source0-md5:	01c2bf98425a871b577503fef5df8e55
 BuildRequires:	GConf2-devel
 BuildRequires:	python-gnome-devel >= 2.5.90
 BuildRequires:	python-pyorbit-devel >= 2.0.0
@@ -24,9 +24,6 @@ GNOME OSD jest systemem powiadamiania OSD dla GNOME.
 
 %prep
 %setup -q
-
-# Regenerat
-rm -f gnome_osd_conf.py
 
 %build
 %configure \
