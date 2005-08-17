@@ -5,9 +5,7 @@ Version:	0.7.2
 Release:	1
 License:	GPL
 Group:		X11/Applications
-# http://telecom.inescporto.pt/~gjc/gnome-osd/ timeouts
-# http://telecom.inescporto.pt/~gjc/gnome-osd/ refuses connection
-Source0:	http://yang.inescn.pt/~gjc/gnome-osd/%{name}-%{version}.tar.bz2
+Source0:	http://telecom.inescporto.pt/~gjc/gnome-osd/%{name}-%{version}.tar.bz2
 # Source0-md5:	84f960f422aa91503134f99365779420
 URL:		http://www.gnomefiles.org/app.php?soft_id=350
 BuildRequires:	GConf2-devel
