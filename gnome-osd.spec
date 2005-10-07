@@ -1,12 +1,14 @@
+# TODO:
+# - really devel package are required??
 Summary:	OSD notification system for the GNOME desktop
 Summary(pl):	System powiadamiania OSD dla GNOME
 Name:		gnome-osd
-Version:	0.7.2
-Release:	1
+Version:	0.8.0
+Release:	0.9
 License:	GPL
 Group:		X11/Applications
-Source0:	http://telecom.inescporto.pt/~gjc/gnome-osd/%{name}-%{version}.tar.bz2
-# Source0-md5:	84f960f422aa91503134f99365779420
+Source0:	http://telecom.inescporto.pt/~gjc/gnome-osd/%{name}_%{version}-1.tar.gz
+# Source0-md5:	7dea83abc9c69cf76925b22110499702
 URL:		http://www.gnomefiles.org/app.php?soft_id=350
 BuildRequires:	GConf2-devel
 BuildRequires:	autoconf >= 2.53
@@ -26,7 +28,7 @@ GNOME desktop.
 GNOME OSD jest systemem powiadamiania OSD dla GNOME.
 
 %prep
-%setup -q
+%setup -q -n %{name}
 
 %build
 %{__aclocal}
