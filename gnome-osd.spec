@@ -1,7 +1,7 @@
 # TODO:
 # - really devel package are required??
 Summary:	OSD notification system for the GNOME desktop
-Summary(pl.UTF-8):   System powiadamiania OSD dla GNOME
+Summary(pl.UTF-8):	System powiadamiania OSD dla GNOME
 Name:		gnome-osd
 Version:	0.8.0
 Release:	0.9
