@@ -13,8 +13,12 @@ URL:		http://www.gnomefiles.org/app.php?soft_id=350
 BuildRequires:	GConf2-devel
 BuildRequires:	autoconf >= 2.53
 BuildRequires:	automake
+BuildRequires:	gettext-devel
+BuildRequires:	intltool
+BuildRequires:	pkgconfig
 BuildRequires:	python-gnome-devel >= 2.6.1
 BuildRequires:	python-pyorbit-devel >= 2.0.0
+BuildRequires:	rpm-pythonprov
 Requires(post):	GConf2
 Requires:	python-gnome-devel >= 2.6.0
 Requires:	python-pyorbit-devel >= 2.0.0
